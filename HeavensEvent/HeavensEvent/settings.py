@@ -19,12 +19,11 @@ import os
 
 DEBUG = False  # Render needs DEBUG = False
 
-ALLOWED_HOSTS = ["your-app-name.onrender.com"]
-
 # Static files  
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-ALLOWED_HOSTS = ["your-app-name.onrender.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ['*']  
+
 
 
 
