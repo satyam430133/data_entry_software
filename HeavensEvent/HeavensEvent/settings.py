@@ -22,7 +22,8 @@ DEBUG = False  # Render needs DEBUG = False
 # Static files  
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-ALLOWED_HOSTS = ['*']  
+ALLOWED_HOSTS = ['data-entry-software-heavens.onrender.com']
+
 
 
 
